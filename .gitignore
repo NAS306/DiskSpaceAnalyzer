@@ -1,0 +1,28 @@
+# Build output and local verification data
+**/bin/
+**/obj/
+/artifacts/
+/dist/
+/dist-framework/
+/DiskSpaceAnalyzer*.zip
+/DiskSpaceAnalyzer*.exe
+
+# Source backups and local settings
+*_BU.*
+_BU.*
+.vs/
+.vscode/
+.codex/
+.agents/
+*.user
+*.suo
+.env
+.env.*
+
+# Locally installed build tools and downloaded archives
+/tools/dotnet/
+/tools/InnoSetup/
+/tools/downloads/
+/vendor/*.zip
+/vendor/SDK/example/
+/vendor/SDK/vs/

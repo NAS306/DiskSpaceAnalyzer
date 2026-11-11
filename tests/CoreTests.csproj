@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net10.0</TargetFramework><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable></PropertyGroup>
+  <ItemGroup><Compile Remove="**/*_BU.cs;TreemapInteraction/**/*.cs;Localization/**/*.cs"/><Compile Include="../src/Core/DirectoryIndex.cs" Link="DirectoryIndex.cs"/><Compile Include="../src/Core/TreemapLayout.cs" Link="TreemapLayout.cs"/><Compile Include="../src/Core/TreemapGrouping.cs" Link="TreemapGrouping.cs"/><Compile Include="../src/Core/LiveMonitor.cs" Link="LiveMonitor.cs"/></ItemGroup>
+  <ItemGroup><Compile Include="../src/Core/AnalysisFilter.cs" Link="AnalysisFilter.cs"/></ItemGroup>
+<ItemGroup><Compile Include="../src/Core/Localization.cs" Link="Localization.cs"/><EmbeddedResource Include="../src/Resources/Strings.resx" LogicalName="DiskSpaceAnalyzer.Resources.Strings.resources"/><EmbeddedResource Include="../src/Resources/Strings.ko.resx" LogicalName="DiskSpaceAnalyzer.Resources.Strings.ko.resources"/></ItemGroup></Project>

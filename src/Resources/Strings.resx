@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+  </resheader>
+  <data name="Help.AdvancedSearch" xml:space="preserve">
+    <value>Choose file types, sizes, and locations to build a search query automatically.
+Find large videos or archives without learning search syntax.</value>
+  </data>
+  <data name="Help.ApplySearch" xml:space="preserve">
+    <value>Apply these conditions, search, and visualize the matching files.
+If unavailable, correct the input error shown in this window. Windows exclusion also applies to the main window.</value>
+  </data>
+  <data name="Help.Back" xml:space="preserve">
+    <value>Return to the folder you previously viewed, rather than the parent folder.
+Available after visiting another folder. Shortcut: Alt+Left Arrow.</value>
+  </data>
+  <data name="Help.Breadcrumb" xml:space="preserve">
+    <value>Click to go straight to this folder.
+Click an earlier folder name to move up several levels at once.</value>
+  </data>
+  <data name="Help.BrowseSearchFolder" xml:space="preserve">
+    <value>Choose a folder and fill in its path.
+This only sets the search location; use ‘Search and visualize’ to run the search.</value>
+  </data>
+  <data name="Help.CancelScan" xml:space="preserve">
+    <value>Stop the current analysis or search without changing files.
+Choose a drive or folder, or refresh, to start again.</value>
+  </data>
+  <data name="Help.CancelSearch" xml:space="preserve">
+    <value>Close without applying these conditions. The current results and settings are kept.</value>
+  </data>
+  <data name="Help.ChooseDrive" xml:space="preserve">
+    <value>Click to analyze all file sizes on this drive.
+The free space and total capacity below describe the drive itself.</value>
+  </data>
+  <data name="Help.ChooseFolder" xml:space="preserve">
+    <value>Choose a folder to analyze, including all its subfolders.
+Use this to examine a smaller location than an entire drive.</value>
+  </data>
+  <data name="Help.CopyPath" xml:space="preserve">
+    <value>Copy this item's full path. Paste it into a text editor or File Explorer's address bar.</value>
+  </data>
+  <data name="Help.CopySelection" xml:space="preserve">
+    <value>Copy the selected item's full path, or the current folder's path if nothing is selected.
+Paste it into a text editor or File Explorer's address bar.</value>
+  </data>
+  <data name="Help.Counts" xml:space="preserve">
+    <value>The total numbers of files and folders below the current folder. In search mode, this shows matching files.</value>
+  </data>
+  <data name="Help.DepthOne" xml:space="preserve">
+    <value>Show the current folder's items as large rectangles without nested previews.
+Use this for a simpler view. Click a folder to explore its contents.</value>
+  </data>
+  <data name="Help.DepthThree" xml:space="preserve">
+    <value>Show two additional subfolder levels inside each folder rectangle.
+Compare several levels at once and click a visible subfolder directly. Very small items may be grouped or omitted from the preview.</value>
+  </data>
+  <data name="Help.DepthTwo" xml:space="preserve">
+    <value>Show one additional subfolder level inside each folder rectangle.
+Compare which subfolders are largest and click a displayed subfolder to go straight to it.</value>
+  </data>
+  <data name="Help.Details" xml:space="preserve">
+    <value>Show or hide the current folder's file and folder list.
+Find tiny items and 0 B files that cannot be seen in the treemap. Click folders to navigate; right-click items for actions. Shortcut: F9.</value>
+  </data>
+  <data name="Help.ExcludeWindows" xml:space="preserve">
+    <value>Exclude C:\Windows and everything inside it from the view, search results, and size totals. Useful for examining your own files without system files. Changing this option reanalyzes the location without deleting anything.</value>
+  </data>
+  <data name="Help.ExplorerMenu" xml:space="preserve">
+    <value>Add or remove this app in File Explorer's folder context menu.
+Once registered, you can start analyzing a folder directly from File Explorer.</value>
+  </data>
+  <data name="Help.ExplorerState" xml:space="preserve">
+    <value>The registration status of the File Explorer context menu.
+If you moved the app, choose Update registration to this location.</value>
+  </data>
+  <data name="Help.Extensions" xml:space="preserve">
+    <value>Choose the kinds of files to find, such as zip for archives or mp4 for videos.
+Separate multiple extensions with semicolons, e.g. zip;7z. * means all file types.</value>
+  </data>
+  <data name="Help.FileTile" xml:space="preserve">
+    <value>Click: select file · Right-click: open file, show in Explorer, copy path, or properties</value>
+  </data>
+  <data name="Help.FolderTile" xml:space="preserve">
+    <value>Click: go straight to this folder · Right-click: show in Explorer, open, copy path, or properties</value>
+  </data>
+  <data name="Help.FullScreen" xml:space="preserve">
+    <value>Expand the treemap to fill your monitor and inspect small items.
+Press F11 to toggle, or Esc while in fullscreen to return to the original window.</value>
+  </data>
+  <data name="Help.GroupTile" xml:space="preserve">
+    <value>Very small items are grouped together. Click to inspect individual items in the list.</value>
+  </data>
+  <data name="Help.ListResize" xml:space="preserve">
+    <value>Drag left or right to adjust the widths of the treemap and the item list.</value>
+  </data>
+  <data name="Help.LiveUpdates" xml:space="preserve">
+    <value>Automatically refresh the view when files are added, removed, or resized. Search results refresh every 5 seconds. Turning this off pauses automatic updates. Use Refresh to check immediately.</value>
+  </data>
+  <data name="Help.NameFilter" xml:space="preserve">
+    <value>Show only items whose names contain this text within the current folder. In search mode, narrow the current results by name.
+This does not start a new computer-wide search. Clear the text to show all items again.</value>
+  </data>
+  <data name="Help.OpenFile" xml:space="preserve">
+    <value>Open this file using the default program assigned in Windows.</value>
+  </data>
+  <data name="Help.OpenFolder" xml:space="preserve">
+    <value>Open this folder in File Explorer. To explore its size inside this app, click the folder in the treemap.</value>
+  </data>
+  <data name="Help.Properties" xml:space="preserve">
+    <value>Open Windows Properties to inspect this item's type, size, dates, and other details.</value>
+  </data>
+  <data name="Help.QueryPreview" xml:space="preserve">
+    <value>The Everything query generated from your choices.
+You do not need to write it yourself. Use Search and visualize to apply it, or copy it for later.</value>
+  </data>
+  <data name="Help.Refresh" xml:space="preserve">
+    <value>Read the latest sizes for the selected drive, folder, or current search results.
+Use this when changes have not appeared yet. Shortcut: F5.</value>
+  </data>
+  <data name="Help.RegisterExplorer" xml:space="preserve">
+    <value>Register this app so you can analyze a folder by right-clicking the folder or its background. Applies only to the current Windows user.
+On Windows 11, it may appear under Show more options.</value>
+  </data>
+  <data name="Help.Reveal" xml:space="preserve">
+    <value>Locate this item in Windows File Explorer.</value>
+  </data>
+  <data name="Help.RevealSelection" xml:space="preserve">
+    <value>Locate the selected item in Windows File Explorer.
+If nothing is selected, locate the current folder instead.</value>
+  </data>
+  <data name="Help.RunSearch" xml:space="preserve">
+    <value>Find files matching the entered query and show rectangles proportional to their sizes.
+The search is not limited to the selected drive. Use Advanced search to choose a search location.</value>
+  </data>
+  <data name="Help.ScanTime" xml:space="preserve">
+    <value>The time taken by the most recent full analysis or search.
+This is not the time to open the current folder or the automatic saving interval.</value>
+  </data>
+  <data name="Help.SearchDrive" xml:space="preserve">
+    <value>Search only this drive and its contents.
+For example, choosing C:\ excludes files on other drives from the results.</value>
+  </data>
+  <data name="Help.SearchFolder" xml:space="preserve">
+    <value>Search only this folder and all its subfolders.
+Enter the full path or use Choose folder to select it.</value>
+  </data>
+  <data name="Help.SearchQuery" xml:space="preserve">
+    <value>Find files throughout Everything's indexed locations.
+Example: *.zip size:&gt;500mb → ZIP files larger than 500 MB.
+Use Advanced search if you prefer choosing conditions. Press Enter to search or Ctrl+E to focus this box.</value>
+  </data>
+  <data name="Help.SearchScope" xml:space="preserve">
+    <value>Choose where to find files: all indexed locations, one drive, or a folder and its subfolders.
+Choose a relevant folder to narrow the results.</value>
+  </data>
+  <data name="Help.Size" xml:space="preserve">
+    <value>Total file sizes in the current folder and all its subfolders. In search mode, only matching files are included. This can differ from the drive's used space.</value>
+  </data>
+  <data name="Help.SizeComparison" xml:space="preserve">
+    <value>Choose how to compare file sizes.
+Greater than excludes the exact size; At least includes it. No size limit ignores the size condition.</value>
+  </data>
+  <data name="Help.SizeUnit" xml:space="preserve">
+    <value>The unit for the entered size. KB or MB are common for documents; GB is useful for large videos.
+For example, size 500 with unit MB means 500 MB. Unused when No size limit is selected.</value>
+  </data>
+  <data name="Help.SizeValue" xml:space="preserve">
+    <value>Enter a size for one file, such as 500 or 1.5, and select the unit beside it.
+If this box is disabled, choose a size condition such as Greater than or At least first.</value>
+  </data>
+  <data name="Help.UnregisterExplorer" xml:space="preserve">
+    <value>Remove only this app's File Explorer context menu. The app and analyzed files are kept.
+Unavailable if the menu has not been registered.</value>
+  </data>
+  <data name="Help.Up" xml:space="preserve">
+    <value>Go up one level to the folder containing the current folder.
+You cannot go outside the original analysis root. Shortcut: Backspace.</value>
+  </data>
+  <data name="Language.Tooltip" xml:space="preserve">
+    <value>Language / Change the interface language. Your choice is saved.</value>
+  </data>
+  <data name="Service.ApprovalRequired" xml:space="preserve">
+    <value>Administrator approval is required once to install or start the Everything indexing service. Run Setup again and approve the Windows prompt.</value>
+  </data>
+  <data name="Service.EmptyIndex" xml:space="preserve">
+    <value>Everything answered, but its file index is empty. Check that the indexing service is running and the target drive is included.</value>
+  </data>
+  <data name="Service.RepairFailed" xml:space="preserve">
+    <value>The Everything indexing service could not be prepared. Run Setup again and approve the administrator prompt. Details: %LOCALAPPDATA%\DiskSpaceAnalyzer\EverythingServiceRepair.log</value>
+  </data>
+  <data name="Service.Repairing" xml:space="preserve">
+    <value>Setting up the Everything indexing service. Approve the Windows administrator prompt to continue.</value>
+  </data>
+  <data name="Service.RestartFailed" xml:space="preserve">
+    <value>Everything could not be restarted while repairing its indexing service. Close Everything and run Setup again.</value>
+  </data>
+  <data name="Space.CapacityHelp" xml:space="preserve">
+    <value>Used: {0}
+Total: {1}
+Free: {2}
+Analyzed file size: {3}
+Drive usage comes from Windows. File sizes can differ because of compression, sparse files, links, and filesystem data.</value>
+  </data>
+  <data name="Space.ExcludedHelp" xml:space="preserve">
+    <value>C:\Windows and its contents are subtracted from both used and total capacity. Actual free space is unchanged.</value>
+  </data>
+  <data name="Space.FreeName" xml:space="preserve">
+    <value>Free space</value>
+  </data>
+  <data name="Space.Help" xml:space="preserve">
+    <value>Show free space as a gray area at a drive root with no name filter. Enabled by default. Your choice is retained while navigating folders or search results.</value>
+  </data>
+  <data name="Space.ShowFree" xml:space="preserve">
+    <value>Show free space</value>
+  </data>
+  <data name="Space.TileHelp" xml:space="preserve">
+    <value>Unoccupied space on this drive. Its area represents free space as a share of total capacity. It has no file actions.</value>
+  </data>
+  <data name="Space.UsedTotal" xml:space="preserve">
+    <value>Used/total</value>
+  </data>
+  <data name="Text.01679AC08B7A" xml:space="preserve">
+    <value>⌕  Find in this folder</value>
+  </data>
+  <data name="Text.01CF320EC336" xml:space="preserve">
+    <value>3 levels</value>
+  </data>
+  <data name="Text.02C6B13049CB" xml:space="preserve">
+    <value>Exclude C:\Windows and all its contents from lists, the treemap, and totals.</value>
+  </data>
+  <data name="Text.03004B886C9F" xml:space="preserve">
+    <value>Everything took more than 3 minutes to prepare its index. Check indexing permissions and the Everything service, then try again.</value>
+  </data>
+  <data name="Text.04909CAEEE96" xml:space="preserve">
+    <value>Live updates</value>
+  </data>
+  <data name="Text.051E29FBE0E4" xml:space="preserve">
+    <value>This exclusion also applies to folder analysis and search totals.</value>
+  </data>
+  <data name="Text.0679E29401F0" xml:space="preserve">
+    <value>Registered to a different location</value>
+  </data>
+  <data name="Text.06AAB2473E72" xml:space="preserve">
+    <value>☷  Hide list</value>
+  </data>
+  <data name="Text.07AD25EFD63B" xml:space="preserve">
+    <value>Explorer menu removed.</value>
+  </data>
+  <data name="Text.0A38B361DCA3" xml:space="preserve">
+    <value>1 level</value>
+  </data>
+  <data name="Text.0B97D93F838D" xml:space="preserve">
+    <value>{0:N0} matching files · {1}</value>
+  </data>
+  <data name="Text.0C8354D0E51A" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="Text.0D10AEF3DA14" xml:space="preserve">
+    <value>No size limit</value>
+  </data>
+  <data name="Text.0FC20F412D6F" xml:space="preserve">
+    <value>Preparing</value>
+  </data>
+  <data name="Text.10A065574FBE" xml:space="preserve">
+    <value> · {0:N0} folder results excluded</value>
+  </data>
+  <data name="Text.1510EE106292" xml:space="preserve">
+    <value> · C:\Windows excluded</value>
+  </data>
+  <data name="Text.151FDA219528" xml:space="preserve">
+    <value>Analysis canceled.</value>
+  </data>
+  <data name="Text.15E787857F74" xml:space="preserve">
+    <value>{0:N0} files</value>
+  </data>
+  <data name="Text.162C2AFACDA3" xml:space="preserve">
+    <value>DiskSpace / Error</value>
+  </data>
+  <data name="Text.162DE9C569FC" xml:space="preserve">
+    <value>File size</value>
+  </data>
+  <data name="Text.173A091F5DEB" xml:space="preserve">
+    <value>Select a drive.</value>
+  </data>
+  <data name="Text.1806DAC3A3E7" xml:space="preserve">
+    <value>DiskSpace / Startup path</value>
+  </data>
+  <data name="Text.1940C5C85045" xml:space="preserve">
+    <value>Explorer menu ▾</value>
+  </data>
+  <data name="Text.19A9EB6E6DB8" xml:space="preserve">
+    <value>No indexed items · the folder is empty or is not included in Everything's index.</value>
+  </data>
+  <data name="Text.1D287C2B2B13" xml:space="preserve">
+    <value>⛶ Windowed</value>
+  </data>
+  <data name="Text.1E434C65949E" xml:space="preserve">
+    <value>Logical file sizes read from Everything's index.</value>
+  </data>
+  <data name="Text.1E72EA7BA0B5" xml:space="preserve">
+    <value>Greater than (&gt;)</value>
+  </data>
+  <data name="Text.1F6E267DCCAE" xml:space="preserve">
+    <value>Search results refresh every 5 seconds</value>
+  </data>
+  <data name="Text.2002229BA8CE" xml:space="preserve">
+    <value>These files are empty or their sizes are unknown.
+Use the item list to see their names and original paths.</value>
+  </data>
+  <data name="Text.23A49597A25B" xml:space="preserve">
+    <value>Analyze disk usage in this folder</value>
+  </data>
+  <data name="Text.2450C5A2C04C" xml:space="preserve">
+    <value>Ready to explore your disk space</value>
+  </data>
+  <data name="Text.24C18E752C4C" xml:space="preserve">
+    <value>Select a drive</value>
+  </data>
+  <data name="Text.253D1510CAF5" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Text.27ED1E7258D2" xml:space="preserve">
+    <value>Search and visualize</value>
+  </data>
+  <data name="Text.28C65AEBCA70" xml:space="preserve">
+    <value>Folder · {0:N0} files</value>
+  </data>
+  <data name="Text.28EF637F8BC1" xml:space="preserve">
+    <value>Enter an absolute drive or folder path as the search location.</value>
+  </data>
+  <data name="Text.298859A04696" xml:space="preserve">
+    <value>Unknown size</value>
+  </data>
+  <data name="Text.2A1C5D714908" xml:space="preserve">
+    <value>Select an item</value>
+  </data>
+  <data name="Text.2B62C0B6072A" xml:space="preserve">
+    <value>C:\Windows exclusion enabled · choose a drive or folder, or run a search.</value>
+  </data>
+  <data name="Text.2E7942FA0D82" xml:space="preserve">
+    <value>A folder and its subfolders</value>
+  </data>
+  <data name="Text.2EA4368A0947" xml:space="preserve">
+    <value>Check the query and search again.
+Only files are included; matching folders do not add their entire contents.</value>
+  </data>
+  <data name="Text.2EC4DBFA1323" xml:space="preserve">
+    <value>{0:N0}/{1:N0} items</value>
+  </data>
+  <data name="Text.2F2E98E8AE93" xml:space="preserve">
+    <value>Choose a drive or folder above.
+Click any displayed subfolder to go straight to it.</value>
+  </data>
+  <data name="Text.2F3E9D51BEB0" xml:space="preserve">
+    <value>Everything IPC query failed (code {0}). Try reconnecting to the engine.</value>
+  </data>
+  <data name="Text.3074591B0CD9" xml:space="preserve">
+    <value>Registered to the current location</value>
+  </data>
+  <data name="Text.331AA63969CE" xml:space="preserve">
+    <value>Waiting to reanalyze</value>
+  </data>
+  <data name="Text.356E6D1698C0" xml:space="preserve">
+    <value>The Everything query took more than 3 minutes.</value>
+  </data>
+  <data name="Text.36E3F1089944" xml:space="preserve">
+    <value>Live updates paused</value>
+  </data>
+  <data name="Text.3A9128755D04" xml:space="preserve">
+    <value>{0}
+
+{1} {2}
+{3} free / {4}</value>
+  </data>
+  <data name="Text.3AA01F0BE206" xml:space="preserve">
+    <value>Open folder</value>
+  </data>
+  <data name="Text.3CC387D1DAC5" xml:space="preserve">
+    <value>* means all types · enter your own types · separate multiple extensions with semicolons, e.g. zip;7z</value>
+  </data>
+  <data name="Text.3DB696DF05CB" xml:space="preserve">
+    <value>At least (≥)</value>
+  </data>
+  <data name="Text.421019B9DE5B" xml:space="preserve">
+    <value>↑ Up</value>
+  </data>
+  <data name="Text.42A00A382524" xml:space="preserve">
+    <value>Reanalyzing with C:\Windows included.</value>
+  </data>
+  <data name="Text.448F95296E7F" xml:space="preserve">
+    <value>{0:N0} items · {1} · {2:0.00} s · {3}</value>
+  </data>
+  <data name="Text.44B2D9AB949C" xml:space="preserve">
+    <value>Collecting search results · {0:N0} / {1:N0} · {2:0.0} s</value>
+  </data>
+  <data name="Text.451354ACB402" xml:space="preserve">
+    <value>⛶ Fullscreen</value>
+  </data>
+  <data name="Text.4823541F6727" xml:space="preserve">
+    <value>Path copied.</value>
+  </data>
+  <data name="Text.486E6B2AFCB5" xml:space="preserve">
+    <value>↻  Refresh</value>
+  </data>
+  <data name="Text.49DCC1FC22D8" xml:space="preserve">
+    <value>Replace the root using a complete scan.</value>
+  </data>
+  <data name="Text.4A11D2097C62" xml:space="preserve">
+    <value>Remove Explorer menu</value>
+  </data>
+  <data name="Text.4CB22594D135" xml:space="preserve">
+    <value>Explorer</value>
+  </data>
+  <data name="Text.4D9832923E3C" xml:space="preserve">
+    <value>Applying search and analysis options</value>
+  </data>
+  <data name="Text.4E3A78F4B6F1" xml:space="preserve">
+    <value>Click any displayed subfolder to go straight to it.</value>
+  </data>
+  <data name="Text.4EC2563DDEFC" xml:space="preserve">
+    <value>DiskSpace — Search: {0}</value>
+  </data>
+  <data name="Text.4F2B88BA7005" xml:space="preserve">
+    <value>Share</value>
+  </data>
+  <data name="Text.4F8CA5E7283A" xml:space="preserve">
+    <value>Starting Everything in the background…</value>
+  </data>
+  <data name="Text.571338C8DD1D" xml:space="preserve">
+    <value>Files in folder: {0:N0}</value>
+  </data>
+  <data name="Text.5A8B58A44E8B" xml:space="preserve">
+    <value>Matching files only · filter names within the results · right-click to work with the original path</value>
+  </data>
+  <data name="Text.5BCD847D4B60" xml:space="preserve">
+    <value>Select a file-size comparison.</value>
+  </data>
+  <data name="Text.600051253D63" xml:space="preserve">
+    <value>At most (≤)</value>
+  </data>
+  <data name="Text.6289CD01BC45" xml:space="preserve">
+    <value>{0:N0} items</value>
+  </data>
+  <data name="Text.62E385AA6417" xml:space="preserve">
+    <value>Total logical size of the matching files. Matching folders and their entire contents are not included.</value>
+  </data>
+  <data name="Text.63230CB6D066" xml:space="preserve">
+    <value>Visualize search</value>
+  </data>
+  <data name="Text.647E0844C8DD" xml:space="preserve">
+    <value>Enter an Everything search query.</value>
+  </data>
+  <data name="Text.647E214CD12E" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="Text.64853FC0227F" xml:space="preserve">
+    <value>Calculating sizes · {0:N0} / {1:N0} items · {2:0.0} s</value>
+  </data>
+  <data name="Text.67047C3309EA" xml:space="preserve">
+    <value>Choose a drive or folder to start again.</value>
+  </data>
+  <data name="Text.675B0129125A" xml:space="preserve">
+    <value>Search location</value>
+  </data>
+  <data name="Text.67898A75FD60" xml:space="preserve">
+    <value>Searching Everything · {0}</value>
+  </data>
+  <data name="Text.694F17379CF9" xml:space="preserve">
+    <value>0 items</value>
+  </data>
+  <data name="Text.6A7A715E9BF4" xml:space="preserve">
+    <value>Analysis canceled</value>
+  </data>
+  <data name="Text.6C4324119377" xml:space="preserve">
+    <value>Reading Everything's index…</value>
+  </data>
+  <data name="Text.6FBF865229FA" xml:space="preserve">
+    <value>Generated query</value>
+  </data>
+  <data name="Text.7068896C6789" xml:space="preserve">
+    <value>Usage: DiskSpaceAnalyzer.exe --root "absolute folder path"</value>
+  </data>
+  <data name="Text.70C8EBBF7C5A" xml:space="preserve">
+    <value>C:\Windows exclusion applies to both search results and size totals.</value>
+  </data>
+  <data name="Text.7398D4628D54" xml:space="preserve">
+    <value>Reads names, paths, and sizes without opening files.
+The initial index may take up to 3 minutes to prepare.</value>
+  </data>
+  <data name="Text.76E84276D466" xml:space="preserve">
+    <value>Could not find the executable to register.</value>
+  </data>
+  <data name="Text.7824F460E049" xml:space="preserve">
+    <value>Ready · choose a drive or folder.</value>
+  </data>
+  <data name="Text.7B003A42ADFB" xml:space="preserve">
+    <value>Search results</value>
+  </data>
+  <data name="Text.7B42F1415F70" xml:space="preserve">
+    <value>Use the item list to see empty folders and 0 B files.</value>
+  </data>
+  <data name="Text.7C78E0EB8F11" xml:space="preserve">
+    <value>The file size exceeds the supported range.</value>
+  </data>
+  <data name="Text.7DFADE74A273" xml:space="preserve">
+    <value>Enter extensions such as zip or zip;7z. Do not include paths or search operators.</value>
+  </data>
+  <data name="Text.7F85BA04CF26" xml:space="preserve">
+    <value>Preparing the initial index · {0:mm\:ss} / up to 03:00</value>
+  </data>
+  <data name="Text.819D9F5D825A" xml:space="preserve">
+    <value>Enter a non-negative file size, such as 500 or 1.5.</value>
+  </data>
+  <data name="Text.83965D24863A" xml:space="preserve">
+    <value>Enter an Everything query, e.g. *.zip size:&gt;500mb</value>
+  </data>
+  <data name="Text.84E06797C8BE" xml:space="preserve">
+    <value>Explorer menu not registered</value>
+  </data>
+  <data name="Text.856901810098" xml:space="preserve">
+    <value>☷  Item list</value>
+  </data>
+  <data name="Text.873D5423331C" xml:space="preserve">
+    <value>Logical file sizes read from Everything's index; file contents are not opened.</value>
+  </data>
+  <data name="Text.883B969D585B" xml:space="preserve">
+    <value>Select a size unit.</value>
+  </data>
+  <data name="Text.8A851CFF9903" xml:space="preserve">
+    <value>No size to display</value>
+  </data>
+  <data name="Text.8CC6583D730A" xml:space="preserve">
+    <value>All indexed locations</value>
+  </data>
+  <data name="Text.8CEB2CCE7CEB" xml:space="preserve">
+    <value>File contents are not read.</value>
+  </data>
+  <data name="Text.8CF5B1E8EEC8" xml:space="preserve">
+    <value>Exclude C:\Windows</value>
+  </data>
+  <data name="Text.8DC8DBA1DB0F" xml:space="preserve">
+    <value>Reading disk usage from the index</value>
+  </data>
+  <data name="Text.93E5FFA013D3" xml:space="preserve">
+    <value>{0:N0} small items</value>
+  </data>
+  <data name="Text.94556B9CFA8C" xml:space="preserve">
+    <value>Areas compare the filtered items. Shares are relative to the entire current folder.</value>
+  </data>
+  <data name="Text.96C042462A24" xml:space="preserve">
+    <value>＋  Choose folder</value>
+  </data>
+  <data name="Text.973314B48FF1" xml:space="preserve">
+    <value>Less than (&lt;)</value>
+  </data>
+  <data name="Text.A05FCBF842EA" xml:space="preserve">
+    <value>Excluded location · C:\Windows and all its contents are also excluded from totals.</value>
+  </data>
+  <data name="Text.A0CDF56961C1" xml:space="preserve">
+    <value>{0:0.00} s</value>
+  </data>
+  <data name="Text.A3B0C8A35AB1" xml:space="preserve">
+    <value>Equal to (=)</value>
+  </data>
+  <data name="Text.A3E06219272B" xml:space="preserve">
+    <value>Register the menu using DiskSpaceAnalyzer.exe in the distribution folder.</value>
+  </data>
+  <data name="Text.A54D9818E6DD" xml:space="preserve">
+    <value>Show in File Explorer</value>
+  </data>
+  <data name="Text.A5D7CE897E87" xml:space="preserve">
+    <value>Live monitoring + index sync every 60 seconds</value>
+  </data>
+  <data name="Text.A9B1D56CAFF6" xml:space="preserve">
+    <value> · {0:N0} files with unknown size</value>
+  </data>
+  <data name="Text.AB437C2C5679" xml:space="preserve">
+    <value>Choose folder</value>
+  </data>
+  <data name="Text.AC21369A20D1" xml:space="preserve">
+    <value>Choose search folder</value>
+  </data>
+  <data name="Text.AD4E83C78737" xml:space="preserve">
+    <value>Could not check the Explorer menu · {0}</value>
+  </data>
+  <data name="Text.B6F4503D6EDD" xml:space="preserve">
+    <value>File extensions</value>
+  </data>
+  <data name="Text.B715069E04DB" xml:space="preserve">
+    <value>Exclude C:\Windows and all its contents</value>
+  </data>
+  <data name="Text.BCF3F5DE4EA2" xml:space="preserve">
+    <value>Open file</value>
+  </data>
+  <data name="Text.BE876433993A" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Text.BE88EA441E38" xml:space="preserve">
+    <value>Everything search results</value>
+  </data>
+  <data name="Text.BEF1671DBD86" xml:space="preserve">
+    <value>Properties</value>
+  </data>
+  <data name="Text.BF3C604213F2" xml:space="preserve">
+    <value>No location selected</value>
+  </data>
+  <data name="Text.C20C02BD5AE1" xml:space="preserve">
+    <value>{0:N0} small items grouped · see the full search result list for individual files.</value>
+  </data>
+  <data name="Text.C2D01E8455BE" xml:space="preserve">
+    <value>Search canceled. The previous results are kept.</value>
+  </data>
+  <data name="Text.C3C269815C58" xml:space="preserve">
+    <value>Everything query · *.zip size:&gt;500mb</value>
+  </data>
+  <data name="Text.C4811CF617BC" xml:space="preserve">
+    <value>Click a subfolder to open it   /   Up: Backspace   /   Item list: F9</value>
+  </data>
+  <data name="Text.C725A9EA3DB6" xml:space="preserve">
+    <value>Connecting to Everything's existing index…</value>
+  </data>
+  <data name="Text.C9270BA5323A" xml:space="preserve">
+    <value>Copy path</value>
+  </data>
+  <data name="Text.CAC8D4B3A175" xml:space="preserve">
+    <value>The folder does not exist or cannot be accessed.
+{0}</value>
+  </data>
+  <data name="Text.CE6651ACF8D6" xml:space="preserve">
+    <value>Everything could not be found. Run Setup again, or check the Everything folder in the portable package.</value>
+  </data>
+  <data name="Text.CE7E399B90FA" xml:space="preserve">
+    <value>Items in the current folder</value>
+  </data>
+  <data name="Text.CFD03C8D5A4E" xml:space="preserve">
+    <value>Choose a drive or folder above</value>
+  </data>
+  <data name="Text.D13C9C11EB99" xml:space="preserve">
+    <value>Add Explorer menu</value>
+  </data>
+  <data name="Text.D2A534AFE5DE" xml:space="preserve">
+    <value>Explorer menu added · right-click a folder or its background → Analyze disk usage in this folder (Windows 11: Show more options)</value>
+  </data>
+  <data name="Text.D52A3FD3EDF6" xml:space="preserve">
+    <value>No files with a visible size</value>
+  </data>
+  <data name="Text.D7A1D98FA489" xml:space="preserve">
+    <value>The path is outside the selected location.</value>
+  </data>
+  <data name="Text.DA821BED8F87" xml:space="preserve">
+    <value>Disable exclusion</value>
+  </data>
+  <data name="Text.DC90D6359671" xml:space="preserve">
+    <value>Index sync every 60 seconds</value>
+  </data>
+  <data name="Text.DCB06BEB51A4" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="Text.DD9E4E60D232" xml:space="preserve">
+    <value>C:\Windows exclusion disabled · choose a drive or folder, or run a search.</value>
+  </data>
+  <data name="Text.DDB3B18D596F" xml:space="preserve">
+    <value>Could not change the Explorer menu · {0}</value>
+  </data>
+  <data name="Text.DF2203628E4A" xml:space="preserve">
+    <value>This folder is excluded</value>
+  </data>
+  <data name="Text.DF81553CD468" xml:space="preserve">
+    <value>Preparing the Everything connection…</value>
+  </data>
+  <data name="Text.E2008153E7B8" xml:space="preserve">
+    <value>{0:N0} files have unknown sizes · only known sizes are included in totals</value>
+  </data>
+  <data name="Text.E2D351A4A4F5" xml:space="preserve">
+    <value>No files match this search</value>
+  </data>
+  <data name="Text.E38FB9265568" xml:space="preserve">
+    <value>{0:N0} items grouped · see the containing folder's full item list for individual items.</value>
+  </data>
+  <data name="Text.E6AC1362406C" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="Text.E8C1FF2E4479" xml:space="preserve">
+    <value>Search · {0}</value>
+  </data>
+  <data name="Text.E999B6B9631A" xml:space="preserve">
+    <value>Size ↓</value>
+  </data>
+  <data name="Text.E9D05CBF94BD" xml:space="preserve">
+    <value>Choose a folder to analyze</value>
+  </data>
+  <data name="Text.EA14C0451805" xml:space="preserve">
+    <value>Automatic update will retry · {0}</value>
+  </data>
+  <data name="Text.EB9A5C6E9979" xml:space="preserve">
+    <value>Choose conditions to build a query and visualize matching files.</value>
+  </data>
+  <data name="Text.EC970130ED20" xml:space="preserve">
+    <value>Update registration to this location</value>
+  </data>
+  <data name="Text.ECC00219B361" xml:space="preserve">
+    <value>Turn off C:\Windows exclusion to analyze this folder.</value>
+  </data>
+  <data name="Text.F2CB550128C4" xml:space="preserve">
+    <value>Check the Everything connection</value>
+  </data>
+  <data name="Text.F2FB86FAC219" xml:space="preserve">
+    <value>{0:HH:mm:ss} updated · {1:N0} items · {2}</value>
+  </data>
+  <data name="Text.F39DB5A38CA6" xml:space="preserve">
+    <value>Files matching the search</value>
+  </data>
+  <data name="Text.F4C1B0B8EDFE" xml:space="preserve">
+    <value>DiskSpace — Everything Disk Analyzer</value>
+  </data>
+  <data name="Text.F690664F0423" xml:space="preserve">
+    <value>Could not list files in the current folder: {0}</value>
+  </data>
+  <data name="Text.F7678038200A" xml:space="preserve">
+    <value>Files / folders</value>
+  </data>
+  <data name="Text.F885177669C0" xml:space="preserve">
+    <value>The search folder does not exist or cannot be accessed.</value>
+  </data>
+  <data name="Text.F8DC5EFC85ED" xml:space="preserve">
+    <value>2 levels</value>
+  </data>
+  <data name="Text.FC7E1B9BE08E" xml:space="preserve">
+    <value>Select a search folder.</value>
+  </data>
+  <data name="Text.FD5B83F7DA1D" xml:space="preserve">
+    <value>Advanced search</value>
+  </data>
+</root>

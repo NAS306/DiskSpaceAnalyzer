@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PlatformTarget>x64</PlatformTarget>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <AssemblyName>DiskSpaceAnalyzer</AssemblyName>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <Version>1.0.4</Version><SatelliteResourceLanguages>en;ko</SatelliteResourceLanguages>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="**/*_BU.cs" />
+    <EmbeddedResource Remove="**/*_BU.resx" />
+    <Page Remove="**/*_BU.xaml" />
+    <None Include="../vendor/SDK/dll/Everything64.dll" Link="Everything64.dll" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="../vendor/Everything/everything.exe" Link="Everything/Everything.exe" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="../vendor/Everything/License.txt" Link="Everything/License.txt" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="../vendor/SDK/License.txt" Link="Everything/SDK-License.txt" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="../README.md" Link="README.md" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

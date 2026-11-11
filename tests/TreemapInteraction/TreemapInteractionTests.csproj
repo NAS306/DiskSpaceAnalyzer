@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net10.0-windows</TargetFramework><UseWPF>true</UseWPF><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable><EnableDefaultCompileItems>false</EnableDefaultCompileItems></PropertyGroup>
+  <ItemGroup><Compile Include="TreemapInteractionTests.cs"/><Compile Include="../../src/Controls/TreemapView.cs" Link="TreemapView.cs"/><Compile Include="../../src/Controls/EntryContextMenu.cs" Link="EntryContextMenu.cs"/><Compile Include="../../src/Core/DirectoryIndex.cs" Link="DirectoryIndex.cs"/><Compile Include="../../src/Core/TreemapLayout.cs" Link="TreemapLayout.cs"/><Compile Include="../../src/Core/TreemapGrouping.cs" Link="TreemapGrouping.cs"/></ItemGroup>
+  <ItemGroup><Compile Include="../../src/Core/StartupOptions.cs" Link="StartupOptions.cs"/><Compile Include="../../src/Interop/ExplorerIntegration.cs" Link="ExplorerIntegration.cs"/></ItemGroup>
+  <ItemGroup><Compile Include="../../src/Core/SearchResults.cs" Link="SearchResults.cs"/></ItemGroup>
+  <ItemGroup><Compile Include="../../src/Core/AnalysisFilter.cs" Link="AnalysisFilter.cs"/><Compile Include="../../src/Core/SearchQueryBuilder.cs" Link="SearchQueryBuilder.cs"/></ItemGroup>
+  <ItemGroup></ItemGroup>
+  <ItemGroup></ItemGroup>
+  <ItemGroup><Compile Include="../../src/Controls/FeatureHelp.cs" Link="FeatureHelp.cs"/></ItemGroup>
+<ItemGroup><Compile Include="../../src/Core/Localization.cs" Link="Localization.cs"/><EmbeddedResource Include="../../src/Resources/Strings.resx" LogicalName="DiskSpaceAnalyzer.Resources.Strings.resources"/><EmbeddedResource Include="../../src/Resources/Strings.ko.resx" LogicalName="DiskSpaceAnalyzer.Resources.Strings.ko.resources"/></ItemGroup><ItemGroup><Compile Include="../../src/Core/DriveCapacity.cs" Link="DriveCapacity.cs"/></ItemGroup></Project>

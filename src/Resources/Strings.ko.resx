@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+  </resheader>
+  <data name="Help.AdvancedSearch" xml:space="preserve">
+    <value>확장자, 파일 크기, 검색할 위치를 선택하면 검색 조건을 자동으로 만들어 줍니다.
+검색 문법을 몰라도 큰 동영상이나 압축 파일 등을 쉽게 찾을 수 있습니다.</value>
+  </data>
+  <data name="Help.ApplySearch" xml:space="preserve">
+    <value>선택한 조건을 적용해 검색하고, 결과 파일을 트리맵으로 보여줍니다.
+버튼이 꺼져 있으면 창에 표시된 입력 오류를 먼저 확인하세요. Windows 제외 옵션은 메인 화면에도 함께 적용됩니다.</value>
+  </data>
+  <data name="Help.Back" xml:space="preserve">
+    <value>이전에 보던 폴더로 돌아갑니다. 위쪽 폴더로 이동하는 기능과는 다릅니다.
+방문한 이전 폴더가 있어야 사용할 수 있습니다. 단축키: Alt+왼쪽 화살표</value>
+  </data>
+  <data name="Help.Breadcrumb" xml:space="preserve">
+    <value>클릭하면 이 경로의 폴더로 바로 이동합니다.
+중간 폴더 이름을 눌러 여러 단계 위로도 돌아갈 수 있습니다.</value>
+  </data>
+  <data name="Help.BrowseSearchFolder" xml:space="preserve">
+    <value>검색할 폴더를 창에서 골라 경로 입력란에 넣습니다.
+여기서는 검색 위치만 정합니다. 검색은 ‘검색하고 시각화’를 눌러 시작하세요.</value>
+  </data>
+  <data name="Help.CancelScan" xml:space="preserve">
+    <value>진행 중인 분석 또는 검색을 중단합니다. 파일은 변경하지 않습니다.
+다시 시작하려면 드라이브·폴더를 선택하거나 새로고침을 누르세요.</value>
+  </data>
+  <data name="Help.CancelSearch" xml:space="preserve">
+    <value>이 창에서 바꾼 조건을 적용하지 않고 닫습니다. 현재 화면의 검색 결과와 설정은 유지됩니다.</value>
+  </data>
+  <data name="Help.ChooseDrive" xml:space="preserve">
+    <value>클릭하면 이 드라이브 전체의 파일 용량을 분석합니다.
+아래 여유 공간·전체 크기는 드라이브 자체의 정보입니다.</value>
+  </data>
+  <data name="Help.ChooseFolder" xml:space="preserve">
+    <value>분석할 폴더를 직접 선택합니다. 선택한 폴더와 모든 하위 폴더의 파일 용량을 함께 보여줍니다.
+드라이브 전체보다 좁은 범위를 살펴볼 때 사용하세요.</value>
+  </data>
+  <data name="Help.CopyPath" xml:space="preserve">
+    <value>이 항목의 전체 경로를 복사합니다. 메모장이나 파일 탐색기의 주소 표시줄에 붙여 넣을 수 있습니다.</value>
+  </data>
+  <data name="Help.CopySelection" xml:space="preserve">
+    <value>선택한 항목의 전체 경로를 복사합니다. 선택한 항목이 없으면 현재 폴더의 경로를 복사합니다.
+메모장이나 파일 탐색기의 주소 표시줄에 붙여 넣을 수 있습니다.</value>
+  </data>
+  <data name="Help.Counts" xml:space="preserve">
+    <value>현재 폴더 아래에 있는 전체 파일 수와 폴더 수입니다. 검색 중에는 검색 결과 파일 수를 표시합니다.</value>
+  </data>
+  <data name="Help.DepthOne" xml:space="preserve">
+    <value>현재 폴더의 항목을 큰 사각형으로만 표시합니다.
+화면을 단순하게 보고 싶을 때 선택하세요. 폴더를 클릭하면 안으로 이동할 수 있습니다.</value>
+  </data>
+  <data name="Help.DepthThree" xml:space="preserve">
+    <value>폴더 사각형 안에서 아래 폴더를 두 단계 더 펼쳐 보여줍니다.
+여러 계층을 한눈에 살펴볼 때 사용하세요. 너무 작거나 공간이 부족한 항목은 생략되거나 묶여 표시됩니다.</value>
+  </data>
+  <data name="Help.DepthTwo" xml:space="preserve">
+    <value>폴더 사각형 안에 그 아래 폴더를 한 단계 더 펼쳐 보여줍니다.
+어느 하위 폴더가 큰지 한눈에 비교하고, 표시된 하위 폴더를 바로 클릭해 이동할 수 있습니다.</value>
+  </data>
+  <data name="Help.Details" xml:space="preserve">
+    <value>현재 폴더의 파일·폴더 목록을 펼치거나 접습니다.
+트리맵에서 너무 작아 보이지 않는 항목이나 0 B 파일도 확인할 수 있습니다. 폴더는 클릭해 이동하고 항목은 우클릭해 작업합니다. 단축키: F9</value>
+  </data>
+  <data name="Help.ExcludeWindows" xml:space="preserve">
+    <value>C:\Windows와 그 안의 모든 폴더·파일을 화면, 검색 결과, 용량 합계에서 제외합니다. Windows 시스템 파일을 빼고 내 파일의 용량을 살펴볼 때 사용하세요. 체크를 바꾸면 다시 분석하며 파일을 삭제하지 않습니다.</value>
+  </data>
+  <data name="Help.ExplorerMenu" xml:space="preserve">
+    <value>파일 탐색기의 폴더 우클릭 메뉴에 이 앱을 추가하거나 제거합니다.
+등록하면 원하는 폴더에서 바로 용량 분석을 시작할 수 있습니다.</value>
+  </data>
+  <data name="Help.ExplorerState" xml:space="preserve">
+    <value>파일 탐색기 우클릭 메뉴의 등록 상태입니다.
+앱을 다른 폴더로 옮겼다면 ‘현재 위치로 등록 갱신’을 선택하세요.</value>
+  </data>
+  <data name="Help.Extensions" xml:space="preserve">
+    <value>찾을 파일 종류를 고릅니다. 예: zip은 압축 파일, mp4는 동영상입니다.
+여러 종류는 zip;7z처럼 세미콜론으로 구분하세요. *는 모든 파일 종류를 뜻합니다.</value>
+  </data>
+  <data name="Help.FileTile" xml:space="preserve">
+    <value>클릭: 파일 선택 · 우클릭: 파일 열기, 탐색기 표시, 경로 복사, 속성</value>
+  </data>
+  <data name="Help.FolderTile" xml:space="preserve">
+    <value>클릭: 이 폴더로 바로 이동 · 우클릭: 탐색기 표시, 열기, 경로 복사, 속성</value>
+  </data>
+  <data name="Help.FullScreen" xml:space="preserve">
+    <value>트리맵을 모니터 전체로 넓혀 작은 항목을 살펴봅니다.
+F11로 전환하고, 전체화면에서는 Esc로 원래 창으로 돌아옵니다.</value>
+  </data>
+  <data name="Help.GroupTile" xml:space="preserve">
+    <value>너무 작은 항목을 묶어 표시했습니다. 클릭하면 개별 항목을 목록에서 확인할 수 있습니다.</value>
+  </data>
+  <data name="Help.ListResize" xml:space="preserve">
+    <value>좌우로 끌면 트리맵과 항목 목록의 너비를 조절할 수 있습니다.</value>
+  </data>
+  <data name="Help.LiveUpdates" xml:space="preserve">
+    <value>파일이 추가·삭제되거나 크기가 바뀌면 현재 화면을 자동으로 갱신합니다. 검색 결과는 5초마다 다시 확인합니다. 끄면 자동 갱신을 멈춥니다. 바로 확인하려면 새로고침을 누르세요.</value>
+  </data>
+  <data name="Help.NameFilter" xml:space="preserve">
+    <value>지금 보고 있는 폴더의 항목 중 이름에 입력한 글자가 들어 있는 것만 표시합니다. 검색 결과 화면에서는 결과 안에서 이름을 좁힙니다.
+컴퓨터 전체를 새로 검색하지 않습니다. 글자를 지우면 전체 항목을 다시 표시합니다.</value>
+  </data>
+  <data name="Help.OpenFile" xml:space="preserve">
+    <value>이 파일을 Windows에 연결된 기본 프로그램으로 엽니다.</value>
+  </data>
+  <data name="Help.OpenFolder" xml:space="preserve">
+    <value>이 폴더를 Windows 파일 탐색기로 엽니다. 앱 안에서 용량을 살펴보려면 트리맵의 폴더를 클릭하세요.</value>
+  </data>
+  <data name="Help.Properties" xml:space="preserve">
+    <value>Windows 속성 창에서 이 항목의 종류·크기·날짜 등 자세한 정보를 확인합니다.</value>
+  </data>
+  <data name="Help.QueryPreview" xml:space="preserve">
+    <value>선택한 조건으로 자동 완성된 Everything 검색식입니다.
+이 내용을 직접 작성할 필요 없이 ‘검색하고 시각화’를 누르면 적용됩니다. 필요하면 복사해 둘 수 있습니다.</value>
+  </data>
+  <data name="Help.Refresh" xml:space="preserve">
+    <value>선택한 드라이브·폴더 또는 현재 검색 결과의 최신 용량을 다시 확인합니다.
+변경 내용이 아직 보이지 않을 때 사용하세요. 단축키: F5</value>
+  </data>
+  <data name="Help.RegisterExplorer" xml:space="preserve">
+    <value>폴더 또는 폴더 안의 빈 공간을 우클릭해 이 앱으로 분석할 수 있도록 등록합니다. 현재 Windows 사용자에게만 적용됩니다.
+Windows 11에서는 ‘더 많은 옵션 표시’ 안에 나타날 수 있습니다.</value>
+  </data>
+  <data name="Help.Reveal" xml:space="preserve">
+    <value>이 항목이 있는 위치를 Windows 파일 탐색기에서 찾아 보여줍니다.</value>
+  </data>
+  <data name="Help.RevealSelection" xml:space="preserve">
+    <value>선택한 항목을 Windows 파일 탐색기에서 찾아 보여줍니다.
+선택한 항목이 없으면 현재 폴더를 찾아 보여줍니다.</value>
+  </data>
+  <data name="Help.RunSearch" xml:space="preserve">
+    <value>입력한 검색 조건에 맞는 파일만 찾아 크기에 비례한 사각형으로 보여줍니다.
+상단에서 선택한 드라이브에만 한정되지 않습니다. 검색 위치를 지정하려면 ‘고급 검색’을 사용하세요.</value>
+  </data>
+  <data name="Help.ScanTime" xml:space="preserve">
+    <value>최근 전체 범위 분석 또는 검색에 걸린 시간입니다.
+현재 폴더를 여는 데 걸리는 시간이나 자동 저장 간격을 뜻하지 않습니다.</value>
+  </data>
+  <data name="Help.SearchDrive" xml:space="preserve">
+    <value>선택한 드라이브와 그 아래에서만 파일을 찾습니다.
+예: C:\를 고르면 다른 드라이브의 파일은 결과에 포함하지 않습니다.</value>
+  </data>
+  <data name="Help.SearchFolder" xml:space="preserve">
+    <value>이 폴더와 모든 하위 폴더에서만 파일을 찾습니다.
+전체 경로를 입력하거나 ‘폴더 선택’ 버튼으로 위치를 고르세요.</value>
+  </data>
+  <data name="Help.SearchQuery" xml:space="preserve">
+    <value>원하는 조건에 맞는 파일을 컴퓨터의 Everything 검색 대상 전체에서 찾습니다.
+예: *.zip size:&gt;500mb → 500 MB보다 큰 ZIP 파일
+조건 입력이 어렵다면 ‘고급 검색’을 사용하세요. Enter로 검색하며 Ctrl+E로 입력란을 선택합니다.</value>
+  </data>
+  <data name="Help.SearchScope" xml:space="preserve">
+    <value>파일을 찾을 위치를 고릅니다. 전체 검색 대상, 특정 드라이브, 특정 폴더와 그 아래 중 선택할 수 있습니다.
+관련 폴더만 지정하면 원하는 결과를 찾기 쉽습니다.</value>
+  </data>
+  <data name="Help.Size" xml:space="preserve">
+    <value>현재 폴더와 모든 하위 폴더에 있는 파일 크기의 합계입니다. 검색 중에는 검색 결과 파일만 합산합니다. 드라이브의 사용 중 공간과는 다를 수 있습니다.</value>
+  </data>
+  <data name="Help.SizeComparison" xml:space="preserve">
+    <value>파일 크기를 어떤 기준으로 비교할지 고릅니다.
+‘초과’는 입력한 크기보다 큰 파일, ‘이상’은 같은 크기도 포함합니다. ‘제한 없음’이면 크기로 거르지 않습니다.</value>
+  </data>
+  <data name="Help.SizeUnit" xml:space="preserve">
+    <value>입력한 크기의 단위입니다. 보통 문서는 KB·MB, 큰 동영상은 GB를 사용합니다.
+예: 크기 500과 단위 MB → 500 MB. 크기 조건이 ‘제한 없음’이면 사용하지 않습니다.</value>
+  </data>
+  <data name="Help.SizeValue" xml:space="preserve">
+    <value>찾을 파일 한 개의 크기 기준을 숫자로 입력합니다. 예: 500 또는 1.5
+옆에서 단위를 고르세요. 입력란이 꺼져 있으면 크기 조건을 ‘초과’나 ‘이상’ 등으로 먼저 바꾸세요.</value>
+  </data>
+  <data name="Help.UnregisterExplorer" xml:space="preserve">
+    <value>파일 탐색기에 추가한 이 앱의 우클릭 메뉴만 제거합니다. 앱이나 분석 대상 파일은 삭제하지 않습니다.
+아직 등록하지 않았다면 사용할 수 없습니다.</value>
+  </data>
+  <data name="Help.Up" xml:space="preserve">
+    <value>현재 폴더를 포함하는 바로 위 폴더로 한 단계 이동합니다.
+처음 분석한 폴더의 바깥으로는 이동하지 않습니다. 단축키: Backspace</value>
+  </data>
+  <data name="Language.Tooltip" xml:space="preserve">
+    <value>언어 / 화면에 표시할 언어를 선택합니다. 선택한 언어는 저장됩니다.</value>
+  </data>
+  <data name="Service.ApprovalRequired" xml:space="preserve">
+    <value>Everything 인덱싱 서비스를 설치하거나 시작하려면 한 번의 관리자 권한 승인이 필요합니다. 설치 프로그램을 다시 실행하고 Windows 확인창을 허용해 주세요.</value>
+  </data>
+  <data name="Service.EmptyIndex" xml:space="preserve">
+    <value>Everything이 응답했지만 파일 인덱스가 비어 있습니다. 인덱싱 서비스 실행 여부와 대상 드라이브의 인덱싱 설정을 확인해 주세요.</value>
+  </data>
+  <data name="Service.RepairFailed" xml:space="preserve">
+    <value>Everything 인덱싱 서비스를 준비하지 못했습니다. 설치 프로그램을 다시 실행하고 관리자 권한 확인창을 허용해 주세요. 자세한 내용: %LOCALAPPDATA%\DiskSpaceAnalyzer\EverythingServiceRepair.log</value>
+  </data>
+  <data name="Service.Repairing" xml:space="preserve">
+    <value>Everything 인덱싱 서비스를 설정하고 있습니다. Windows 관리자 권한 확인창을 허용해 주세요.</value>
+  </data>
+  <data name="Service.RestartFailed" xml:space="preserve">
+    <value>인덱싱 서비스 복구 중 Everything을 다시 시작하지 못했습니다. Everything을 종료한 뒤 설치 프로그램을 다시 실행해 주세요.</value>
+  </data>
+  <data name="Space.CapacityHelp" xml:space="preserve">
+    <value>사용 용량: {0}
+전체 용량: {1}
+여유 공간: {2}
+분석한 파일 용량: {3}
+드라이브 사용량은 Windows 기준입니다. 압축·희소 파일·링크·파일 시스템 데이터 등으로 파일 용량 합계와 차이가 날 수 있습니다.</value>
+  </data>
+  <data name="Space.ExcludedHelp" xml:space="preserve">
+    <value>C:\Windows와 모든 하위 항목의 용량을 사용 용량과 전체 용량에서 함께 제외합니다. 실제 여유 공간은 변하지 않습니다.</value>
+  </data>
+  <data name="Space.FreeName" xml:space="preserve">
+    <value>여유 공간</value>
+  </data>
+  <data name="Space.Help" xml:space="preserve">
+    <value>드라이브 최상위에서 이름 필터를 사용하지 않을 때 여유 공간을 회색으로 표시합니다. 기본 ON이며, 폴더나 검색 결과로 이동해도 선택은 유지됩니다.</value>
+  </data>
+  <data name="Space.ShowFree" xml:space="preserve">
+    <value>여유 공간 보이기</value>
+  </data>
+  <data name="Space.TileHelp" xml:space="preserve">
+    <value>이 드라이브에서 사용하지 않는 공간입니다. 전체 용량 중 여유 공간의 비율만큼 표시되며 파일 작업은 제공하지 않습니다.</value>
+  </data>
+  <data name="Space.UsedTotal" xml:space="preserve">
+    <value>사용/전체</value>
+  </data>
+  <data name="Text.01679AC08B7A" xml:space="preserve">
+    <value>⌕  현재 폴더에서 찾기</value>
+  </data>
+  <data name="Text.01CF320EC336" xml:space="preserve">
+    <value>3단계</value>
+  </data>
+  <data name="Text.02C6B13049CB" xml:space="preserve">
+    <value>C:\Windows 및 모든 하위 폴더를 목록·트리맵·용량 합계에서 제외합니다.</value>
+  </data>
+  <data name="Text.03004B886C9F" xml:space="preserve">
+    <value>Everything 인덱스 준비가 3분을 초과했습니다. 인덱싱 권한이나 Everything 서비스 상태를 확인한 뒤 다시 시도하세요.</value>
+  </data>
+  <data name="Text.04909CAEEE96" xml:space="preserve">
+    <value>실시간 갱신</value>
+  </data>
+  <data name="Text.051E29FBE0E4" xml:space="preserve">
+    <value>제외 옵션은 일반 폴더 분석과 검색의 용량 합계에도 적용됩니다.</value>
+  </data>
+  <data name="Text.0679E29401F0" xml:space="preserve">
+    <value>다른 실행 위치로 등록됨</value>
+  </data>
+  <data name="Text.06AAB2473E72" xml:space="preserve">
+    <value>☷  목록 접기</value>
+  </data>
+  <data name="Text.07AD25EFD63B" xml:space="preserve">
+    <value>탐색기 메뉴를 제거했습니다.</value>
+  </data>
+  <data name="Text.0A38B361DCA3" xml:space="preserve">
+    <value>1단계</value>
+  </data>
+  <data name="Text.0B97D93F838D" xml:space="preserve">
+    <value>검색 파일 {0:N0}개 · {1}</value>
+  </data>
+  <data name="Text.0C8354D0E51A" xml:space="preserve">
+    <value>파일</value>
+  </data>
+  <data name="Text.0D10AEF3DA14" xml:space="preserve">
+    <value>제한 없음</value>
+  </data>
+  <data name="Text.0FC20F412D6F" xml:space="preserve">
+    <value>준비 중</value>
+  </data>
+  <data name="Text.10A065574FBE" xml:space="preserve">
+    <value> · 폴더 결과 {0:N0}개 제외</value>
+  </data>
+  <data name="Text.1510EE106292" xml:space="preserve">
+    <value> · C:\Windows 제외</value>
+  </data>
+  <data name="Text.151FDA219528" xml:space="preserve">
+    <value>집계를 취소했습니다.</value>
+  </data>
+  <data name="Text.15E787857F74" xml:space="preserve">
+    <value>{0:N0}개 파일</value>
+  </data>
+  <data name="Text.162C2AFACDA3" xml:space="preserve">
+    <value>DiskSpace / 오류</value>
+  </data>
+  <data name="Text.162DE9C569FC" xml:space="preserve">
+    <value>파일 크기</value>
+  </data>
+  <data name="Text.173A091F5DEB" xml:space="preserve">
+    <value>드라이브를 선택하세요.</value>
+  </data>
+  <data name="Text.1806DAC3A3E7" xml:space="preserve">
+    <value>DiskSpace / 시작 경로</value>
+  </data>
+  <data name="Text.1940C5C85045" xml:space="preserve">
+    <value>탐색기 메뉴 ▾</value>
+  </data>
+  <data name="Text.19A9EB6E6DB8" xml:space="preserve">
+    <value>인덱스 결과 없음 · 빈 폴더이거나 Everything 인덱스에 포함되지 않은 경로입니다.</value>
+  </data>
+  <data name="Text.1D287C2B2B13" xml:space="preserve">
+    <value>⛶ 창 모드</value>
+  </data>
+  <data name="Text.1E434C65949E" xml:space="preserve">
+    <value>Everything 인덱스에서 읽은 파일의 논리적 용량입니다.</value>
+  </data>
+  <data name="Text.1E72EA7BA0B5" xml:space="preserve">
+    <value>초과 (&gt;)</value>
+  </data>
+  <data name="Text.1F6E267DCCAE" xml:space="preserve">
+    <value>검색 결과 5초마다 재조회</value>
+  </data>
+  <data name="Text.2002229BA8CE" xml:space="preserve">
+    <value>0 B 또는 용량 확인 불가 파일입니다.
+항목 목록에서 이름과 원래 경로를 확인할 수 있습니다.</value>
+  </data>
+  <data name="Text.23A49597A25B" xml:space="preserve">
+    <value>이 폴더의 디스크 사용량 분석</value>
+  </data>
+  <data name="Text.2450C5A2C04C" xml:space="preserve">
+    <value>공간을 살펴볼 준비가 되었습니다</value>
+  </data>
+  <data name="Text.24C18E752C4C" xml:space="preserve">
+    <value>드라이브 선택</value>
+  </data>
+  <data name="Text.253D1510CAF5" xml:space="preserve">
+    <value>이름</value>
+  </data>
+  <data name="Text.27ED1E7258D2" xml:space="preserve">
+    <value>검색하고 시각화</value>
+  </data>
+  <data name="Text.28C65AEBCA70" xml:space="preserve">
+    <value>폴더 · {0:N0}개 파일</value>
+  </data>
+  <data name="Text.28EF637F8BC1" xml:space="preserve">
+    <value>검색 범위는 드라이브 또는 폴더의 전체 경로로 지정하세요.</value>
+  </data>
+  <data name="Text.298859A04696" xml:space="preserve">
+    <value>확인 불가</value>
+  </data>
+  <data name="Text.2A1C5D714908" xml:space="preserve">
+    <value>항목을 선택하세요</value>
+  </data>
+  <data name="Text.2B62C0B6072A" xml:space="preserve">
+    <value>C:\Windows 제외 활성화 · 분석할 드라이브·폴더를 선택하거나 검색하세요.</value>
+  </data>
+  <data name="Text.2E7942FA0D82" xml:space="preserve">
+    <value>특정 폴더와 하위 폴더</value>
+  </data>
+  <data name="Text.2EA4368A0947" xml:space="preserve">
+    <value>검색식을 확인해 다시 검색하세요.
+폴더 결과는 포함하지 않으며 Everything 인덱스 전체에서 파일을 가져옵니다.</value>
+  </data>
+  <data name="Text.2EC4DBFA1323" xml:space="preserve">
+    <value>{0:N0}/{1:N0}개</value>
+  </data>
+  <data name="Text.2F2E98E8AE93" xml:space="preserve">
+    <value>상단에서 드라이브 또는 폴더를 선택하세요.
+표시된 하위 폴더를 클릭하면 해당 경로로 바로 이동합니다.</value>
+  </data>
+  <data name="Text.2F3E9D51BEB0" xml:space="preserve">
+    <value>Everything IPC 조회 실패 (코드 {0}). 엔진 연결을 다시 시도하세요.</value>
+  </data>
+  <data name="Text.3074591B0CD9" xml:space="preserve">
+    <value>현재 실행 위치로 등록됨</value>
+  </data>
+  <data name="Text.331AA63969CE" xml:space="preserve">
+    <value>재집계 대기</value>
+  </data>
+  <data name="Text.356E6D1698C0" xml:space="preserve">
+    <value>Everything 조회가 3분을 초과했습니다.</value>
+  </data>
+  <data name="Text.36E3F1089944" xml:space="preserve">
+    <value>자동 갱신 일시정지</value>
+  </data>
+  <data name="Text.3A9128755D04" xml:space="preserve">
+    <value>{0}
+
+{1} {2}
+{3} 여유 / {4}</value>
+  </data>
+  <data name="Text.3AA01F0BE206" xml:space="preserve">
+    <value>폴더 열기</value>
+  </data>
+  <data name="Text.3CC387D1DAC5" xml:space="preserve">
+    <value>* 는 모든 파일 · 직접 입력 가능 · 여러 확장자는 zip;7z처럼 구분</value>
+  </data>
+  <data name="Text.3DB696DF05CB" xml:space="preserve">
+    <value>이상 (≥)</value>
+  </data>
+  <data name="Text.421019B9DE5B" xml:space="preserve">
+    <value>↑ 상위</value>
+  </data>
+  <data name="Text.42A00A382524" xml:space="preserve">
+    <value>C:\Windows를 포함해 다시 분석합니다.</value>
+  </data>
+  <data name="Text.448F95296E7F" xml:space="preserve">
+    <value>{0:N0}개 항목 · {1} · {2:0.00}초 · {3}</value>
+  </data>
+  <data name="Text.44B2D9AB949C" xml:space="preserve">
+    <value>검색 결과 수집 · {0:N0} / {1:N0} · {2:0.0}초</value>
+  </data>
+  <data name="Text.451354ACB402" xml:space="preserve">
+    <value>⛶ 전체화면</value>
+  </data>
+  <data name="Text.4823541F6727" xml:space="preserve">
+    <value>경로를 복사했습니다.</value>
+  </data>
+  <data name="Text.486E6B2AFCB5" xml:space="preserve">
+    <value>↻  새로고침</value>
+  </data>
+  <data name="Text.49DCC1FC22D8" xml:space="preserve">
+    <value>루트는 전체 재집계 결과로 교체합니다.</value>
+  </data>
+  <data name="Text.4A11D2097C62" xml:space="preserve">
+    <value>탐색기 메뉴에서 제거</value>
+  </data>
+  <data name="Text.4CB22594D135" xml:space="preserve">
+    <value>탐색기</value>
+  </data>
+  <data name="Text.4D9832923E3C" xml:space="preserve">
+    <value>검색·분석 옵션을 적용합니다</value>
+  </data>
+  <data name="Text.4E3A78F4B6F1" xml:space="preserve">
+    <value>표시된 하위 폴더를 클릭하면 해당 경로로 바로 이동합니다.</value>
+  </data>
+  <data name="Text.4EC2563DDEFC" xml:space="preserve">
+    <value>DiskSpace — 검색: {0}</value>
+  </data>
+  <data name="Text.4F2B88BA7005" xml:space="preserve">
+    <value>비율</value>
+  </data>
+  <data name="Text.4F8CA5E7283A" xml:space="preserve">
+    <value>Everything을 백그라운드로 시작하는 중…</value>
+  </data>
+  <data name="Text.571338C8DD1D" xml:space="preserve">
+    <value>폴더 내 파일 {0:N0}개</value>
+  </data>
+  <data name="Text.5A8B58A44E8B" xml:space="preserve">
+    <value>검색에 일치한 파일만 표시 · 이름 필터는 검색 결과 안에서 적용 · 우클릭으로 원래 경로 작업</value>
+  </data>
+  <data name="Text.5BCD847D4B60" xml:space="preserve">
+    <value>파일 크기 조건을 선택하세요.</value>
+  </data>
+  <data name="Text.600051253D63" xml:space="preserve">
+    <value>이하 (≤)</value>
+  </data>
+  <data name="Text.6289CD01BC45" xml:space="preserve">
+    <value>{0:N0}개</value>
+  </data>
+  <data name="Text.62E385AA6417" xml:space="preserve">
+    <value>검색식에 일치하는 파일의 논리적 크기 합계입니다. 폴더 결과와 그 하위 전체 용량은 포함하지 않습니다.</value>
+  </data>
+  <data name="Text.63230CB6D066" xml:space="preserve">
+    <value>검색 시각화</value>
+  </data>
+  <data name="Text.647E0844C8DD" xml:space="preserve">
+    <value>Everything 검색식을 입력하세요.</value>
+  </data>
+  <data name="Text.647E214CD12E" xml:space="preserve">
+    <value>준비 완료</value>
+  </data>
+  <data name="Text.64853FC0227F" xml:space="preserve">
+    <value>용량 집계 · {0:N0} / {1:N0} 항목 · {2:0.0}초</value>
+  </data>
+  <data name="Text.67047C3309EA" xml:space="preserve">
+    <value>드라이브나 폴더를 선택하면 다시 시작합니다.</value>
+  </data>
+  <data name="Text.675B0129125A" xml:space="preserve">
+    <value>검색 범위</value>
+  </data>
+  <data name="Text.67898A75FD60" xml:space="preserve">
+    <value>Everything 검색 중 · {0}</value>
+  </data>
+  <data name="Text.694F17379CF9" xml:space="preserve">
+    <value>0개</value>
+  </data>
+  <data name="Text.6A7A715E9BF4" xml:space="preserve">
+    <value>집계가 취소되었습니다</value>
+  </data>
+  <data name="Text.6C4324119377" xml:space="preserve">
+    <value>Everything 인덱스를 조회하는 중…</value>
+  </data>
+  <data name="Text.6FBF865229FA" xml:space="preserve">
+    <value>완성된 검색식</value>
+  </data>
+  <data name="Text.7068896C6789" xml:space="preserve">
+    <value>사용법: DiskSpaceAnalyzer.exe --root "분석할 폴더 경로"</value>
+  </data>
+  <data name="Text.70C8EBBF7C5A" xml:space="preserve">
+    <value>C:\Windows 제외 옵션이 검색 결과와 용량 합계에 함께 적용됩니다.</value>
+  </data>
+  <data name="Text.7398D4628D54" xml:space="preserve">
+    <value>파일을 열지 않고 이름·경로·용량을 집계합니다.
+최초 인덱스 준비는 최대 3분 걸릴 수 있습니다.</value>
+  </data>
+  <data name="Text.76E84276D466" xml:space="preserve">
+    <value>등록할 실행 파일을 찾을 수 없습니다.</value>
+  </data>
+  <data name="Text.7824F460E049" xml:space="preserve">
+    <value>준비 완료 · 드라이브나 폴더를 선택하세요.</value>
+  </data>
+  <data name="Text.7B003A42ADFB" xml:space="preserve">
+    <value>검색 결과</value>
+  </data>
+  <data name="Text.7B42F1415F70" xml:space="preserve">
+    <value>빈 폴더와 0 B 파일은 오른쪽 목록에서 확인하세요.</value>
+  </data>
+  <data name="Text.7C78E0EB8F11" xml:space="preserve">
+    <value>파일 크기가 지원 범위를 초과했습니다.</value>
+  </data>
+  <data name="Text.7DFADE74A273" xml:space="preserve">
+    <value>확장자는 zip 또는 zip;7z처럼 입력하세요. 경로나 검색 연산자는 넣지 마세요.</value>
+  </data>
+  <data name="Text.7F85BA04CF26" xml:space="preserve">
+    <value>최초 인덱스 준비 중 · {0:mm\:ss} / 최대 03:00</value>
+  </data>
+  <data name="Text.819D9F5D825A" xml:space="preserve">
+    <value>파일 크기는 0 이상의 숫자로 입력하세요. 예: 500 또는 1.5</value>
+  </data>
+  <data name="Text.83965D24863A" xml:space="preserve">
+    <value>Everything 검색식을 입력하세요. 예: *.zip size:&gt;500mb</value>
+  </data>
+  <data name="Text.84E06797C8BE" xml:space="preserve">
+    <value>탐색기 메뉴 미등록</value>
+  </data>
+  <data name="Text.856901810098" xml:space="preserve">
+    <value>☷  항목 목록</value>
+  </data>
+  <data name="Text.873D5423331C" xml:space="preserve">
+    <value>파일을 열지 않고, Everything 인덱스에서 읽은 논리적 용량입니다.</value>
+  </data>
+  <data name="Text.883B969D585B" xml:space="preserve">
+    <value>용량 단위를 선택하세요.</value>
+  </data>
+  <data name="Text.8A851CFF9903" xml:space="preserve">
+    <value>표시할 용량이 없습니다</value>
+  </data>
+  <data name="Text.8CC6583D730A" xml:space="preserve">
+    <value>전체 인덱스</value>
+  </data>
+  <data name="Text.8CEB2CCE7CEB" xml:space="preserve">
+    <value>파일 내용은 읽지 않습니다.</value>
+  </data>
+  <data name="Text.8CF5B1E8EEC8" xml:space="preserve">
+    <value>C:\Windows 제외</value>
+  </data>
+  <data name="Text.8DC8DBA1DB0F" xml:space="preserve">
+    <value>인덱스에서 공간을 읽고 있습니다</value>
+  </data>
+  <data name="Text.93E5FFA013D3" xml:space="preserve">
+    <value>작은 항목 {0:N0}개</value>
+  </data>
+  <data name="Text.94556B9CFA8C" xml:space="preserve">
+    <value>필터된 항목끼리 면적을 비교합니다. 비율은 현재 폴더 전체 기준입니다.</value>
+  </data>
+  <data name="Text.96C042462A24" xml:space="preserve">
+    <value>＋  폴더 선택</value>
+  </data>
+  <data name="Text.973314B48FF1" xml:space="preserve">
+    <value>미만 (&lt;)</value>
+  </data>
+  <data name="Text.A05FCBF842EA" xml:space="preserve">
+    <value>제외된 범위 · C:\Windows 및 모든 하위 폴더는 용량 합계에도 포함하지 않습니다.</value>
+  </data>
+  <data name="Text.A0CDF56961C1" xml:space="preserve">
+    <value>{0:0.00}초</value>
+  </data>
+  <data name="Text.A3B0C8A35AB1" xml:space="preserve">
+    <value>같음 (=)</value>
+  </data>
+  <data name="Text.A3E06219272B" xml:space="preserve">
+    <value>배포 폴더의 DiskSpaceAnalyzer.exe에서 메뉴를 등록하세요.</value>
+  </data>
+  <data name="Text.A54D9818E6DD" xml:space="preserve">
+    <value>파일 탐색기에 표시</value>
+  </data>
+  <data name="Text.A5D7CE897E87" xml:space="preserve">
+    <value>실시간 감시 + 60초 인덱스 동기화</value>
+  </data>
+  <data name="Text.A9B1D56CAFF6" xml:space="preserve">
+    <value> · 용량 확인 불가 {0:N0}개</value>
+  </data>
+  <data name="Text.AB437C2C5679" xml:space="preserve">
+    <value>폴더 선택</value>
+  </data>
+  <data name="Text.AC21369A20D1" xml:space="preserve">
+    <value>검색할 폴더 선택</value>
+  </data>
+  <data name="Text.AD4E83C78737" xml:space="preserve">
+    <value>탐색기 메뉴 상태 확인 실패 · {0}</value>
+  </data>
+  <data name="Text.B6F4503D6EDD" xml:space="preserve">
+    <value>파일 확장자</value>
+  </data>
+  <data name="Text.B715069E04DB" xml:space="preserve">
+    <value>C:\Windows 및 모든 하위 폴더 제외</value>
+  </data>
+  <data name="Text.BCF3F5DE4EA2" xml:space="preserve">
+    <value>파일 열기</value>
+  </data>
+  <data name="Text.BE876433993A" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="Text.BE88EA441E38" xml:space="preserve">
+    <value>Everything 검색 결과</value>
+  </data>
+  <data name="Text.BEF1671DBD86" xml:space="preserve">
+    <value>속성 보기</value>
+  </data>
+  <data name="Text.BF3C604213F2" xml:space="preserve">
+    <value>선택된 범위 없음</value>
+  </data>
+  <data name="Text.C20C02BD5AE1" xml:space="preserve">
+    <value>{0:N0}개 작은 항목 묶음 · 검색 결과 전체 목록에서 개별 파일을 확인하세요.</value>
+  </data>
+  <data name="Text.C2D01E8455BE" xml:space="preserve">
+    <value>검색을 취소했습니다. 기존 결과를 유지합니다.</value>
+  </data>
+  <data name="Text.C3C269815C58" xml:space="preserve">
+    <value>Everything 검색식 · *.zip size:&gt;500mb</value>
+  </data>
+  <data name="Text.C4811CF617BC" xml:space="preserve">
+    <value>하위 폴더 클릭 · 바로 이동   /   상위 · Backspace   /   목록 · F9</value>
+  </data>
+  <data name="Text.C725A9EA3DB6" xml:space="preserve">
+    <value>Everything의 기존 인덱스에 연결하는 중…</value>
+  </data>
+  <data name="Text.C9270BA5323A" xml:space="preserve">
+    <value>경로 복사</value>
+  </data>
+  <data name="Text.CAC8D4B3A175" xml:space="preserve">
+    <value>폴더가 없거나 접근할 수 없습니다.
+{0}</value>
+  </data>
+  <data name="Text.CE6651ACF8D6" xml:space="preserve">
+    <value>Everything을 찾을 수 없습니다. 설치 프로그램을 다시 실행하거나 포터블 배포 폴더의 Everything 폴더를 확인하세요.</value>
+  </data>
+  <data name="Text.CE7E399B90FA" xml:space="preserve">
+    <value>현재 폴더의 항목</value>
+  </data>
+  <data name="Text.CFD03C8D5A4E" xml:space="preserve">
+    <value>상단에서 드라이브나 폴더를 선택하세요</value>
+  </data>
+  <data name="Text.D13C9C11EB99" xml:space="preserve">
+    <value>탐색기 메뉴에 추가</value>
+  </data>
+  <data name="Text.D2A534AFE5DE" xml:space="preserve">
+    <value>탐색기 메뉴 추가 완료 · 폴더 또는 폴더 안 빈 공간 우클릭 → 이 폴더의 디스크 사용량 분석 (Windows 11: 더 많은 옵션 표시)</value>
+  </data>
+  <data name="Text.D52A3FD3EDF6" xml:space="preserve">
+    <value>면적으로 표시할 파일이 없습니다</value>
+  </data>
+  <data name="Text.D7A1D98FA489" xml:space="preserve">
+    <value>선택 범위 밖의 경로입니다.</value>
+  </data>
+  <data name="Text.DA821BED8F87" xml:space="preserve">
+    <value>제외 옵션 해제</value>
+  </data>
+  <data name="Text.DC90D6359671" xml:space="preserve">
+    <value>60초마다 인덱스 동기화</value>
+  </data>
+  <data name="Text.DCB06BEB51A4" xml:space="preserve">
+    <value>미리보기</value>
+  </data>
+  <data name="Text.DD9E4E60D232" xml:space="preserve">
+    <value>C:\Windows 제외 해제 · 분석할 드라이브·폴더를 선택하거나 검색하세요.</value>
+  </data>
+  <data name="Text.DDB3B18D596F" xml:space="preserve">
+    <value>탐색기 메뉴 변경 실패 · {0}</value>
+  </data>
+  <data name="Text.DF2203628E4A" xml:space="preserve">
+    <value>제외된 폴더입니다</value>
+  </data>
+  <data name="Text.DF81553CD468" xml:space="preserve">
+    <value>Everything 연결 준비 중…</value>
+  </data>
+  <data name="Text.E2008153E7B8" xml:space="preserve">
+    <value>용량을 확인할 수 없는 파일 {0:N0}개 · 알려진 용량만 집계</value>
+  </data>
+  <data name="Text.E2D351A4A4F5" xml:space="preserve">
+    <value>검색에 일치하는 파일이 없습니다</value>
+  </data>
+  <data name="Text.E38FB9265568" xml:space="preserve">
+    <value>{0:N0}개 항목 묶음 · 소속 폴더의 전체 목록에서 개별 항목을 확인하세요.</value>
+  </data>
+  <data name="Text.E6AC1362406C" xml:space="preserve">
+    <value>용량</value>
+  </data>
+  <data name="Text.E8C1FF2E4479" xml:space="preserve">
+    <value>검색 · {0}</value>
+  </data>
+  <data name="Text.E999B6B9631A" xml:space="preserve">
+    <value>용량 ↓</value>
+  </data>
+  <data name="Text.E9D05CBF94BD" xml:space="preserve">
+    <value>분석할 폴더 선택</value>
+  </data>
+  <data name="Text.EA14C0451805" xml:space="preserve">
+    <value>자동 갱신 재시도 예정 · {0}</value>
+  </data>
+  <data name="Text.EB9A5C6E9979" xml:space="preserve">
+    <value>조건을 선택하면 검색식을 만들고 파일을 찾아 시각화합니다.</value>
+  </data>
+  <data name="Text.EC970130ED20" xml:space="preserve">
+    <value>현재 위치로 등록 갱신</value>
+  </data>
+  <data name="Text.ECC00219B361" xml:space="preserve">
+    <value>C:\Windows 제외 옵션을 해제하면 다시 분석할 수 있습니다.</value>
+  </data>
+  <data name="Text.F2CB550128C4" xml:space="preserve">
+    <value>연결 상태를 확인해 주세요</value>
+  </data>
+  <data name="Text.F2FB86FAC219" xml:space="preserve">
+    <value>{0:HH:mm:ss} 갱신 · {1:N0}개 항목 · {2}</value>
+  </data>
+  <data name="Text.F39DB5A38CA6" xml:space="preserve">
+    <value>검색 결과 파일</value>
+  </data>
+  <data name="Text.F4C1B0B8EDFE" xml:space="preserve">
+    <value>DiskSpace — Everything 디스크 분석기</value>
+  </data>
+  <data name="Text.F690664F0423" xml:space="preserve">
+    <value>현재 폴더 파일 조회 실패: {0}</value>
+  </data>
+  <data name="Text.F7678038200A" xml:space="preserve">
+    <value>파일 / 폴더</value>
+  </data>
+  <data name="Text.F885177669C0" xml:space="preserve">
+    <value>검색할 폴더가 없거나 접근할 수 없습니다.</value>
+  </data>
+  <data name="Text.F8DC5EFC85ED" xml:space="preserve">
+    <value>2단계</value>
+  </data>
+  <data name="Text.FC7E1B9BE08E" xml:space="preserve">
+    <value>검색할 폴더를 선택하세요.</value>
+  </data>
+  <data name="Text.FD5B83F7DA1D" xml:space="preserve">
+    <value>고급 검색</value>
+  </data>
+</root>
